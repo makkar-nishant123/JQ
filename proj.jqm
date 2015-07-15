@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Conference Room Booking App - Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/home/shashank/jquery/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css" />
+    <script type="text/javascript" src="/home/shashank/jquery/jquery/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/home/shashank/jquery/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+    <div data-role="page">
+   <!-- <div data-role="header" data-theme="b">
+    <h1>TailorMade</h1>
+
+    </div> -->
+<div data-role="content">
+
+  <fieldset data-role="collapsible" data-iconpos="left" data-theme="b" >
+                        <h1 ><span    class="ui-icon ui-icon-home ui-icon-shadow ui-btn-icon-right" style="right:30px;">&nbsp;</span>TailorMade</h1>
+<!--<label for="search-2">Search:</label>-->
+<input type="search" name="search-2" id="search-2" value="" />
+
+<ul data-role="listview" style='margin:20px;'>
+  <li>
+<div class="ui-bar">
+  <img id="Logo" src="/home/shashank/jquery/download.jpg" >
+
+  </li>
+</div>
+</ul>
+
+<a href="tel:8149413000" data-role="button" rel="external" data-theme="a"  data-iconpos="top">Call Us</a>
+    
+    
+</div>
+</div>
+
+</body>
+
+</html>
